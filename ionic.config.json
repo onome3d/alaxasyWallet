@@ -1,0 +1,7 @@
+{
+  "name": "alaxasyWallet",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
