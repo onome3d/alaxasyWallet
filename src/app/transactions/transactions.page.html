@@ -1,0 +1,24 @@
+<ion-header>
+
+</ion-header>
+
+<ion-content>
+  <ion-list class="ios list-ios hydrated indigo-vs-purple" inset>
+    <ion-list-header class="ios hydrated">
+      Transactions
+    </ion-list-header>
+
+    <ion-item *ngFor="let country of items" class="ionLtem" detail="true" lines="full">
+      <ion-thumbnail slot="start" class="ios hydrated">
+        <img [src]="country.img">
+      </ion-thumbnail>
+      <ion-label>
+        <h2>1000$</h2>
+        <p class="fs-10 text-purple">12/4/2021</p>
+      </ion-label>
+      <ion-label slot="end">
+        <p class="plist">Pending</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

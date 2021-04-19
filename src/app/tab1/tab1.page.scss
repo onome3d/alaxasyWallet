@@ -1,0 +1,66 @@
+round-progress {
+	margin: auto;
+
+}
+
+.positionRelative{
+  position: relative;
+margin-top: 20px;
+
+}
+
+.percentageValue {
+  left: 0px;
+  top: 40%;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(250, 235, 207);
+  font-weight: 300;
+p{
+  font-size: 10px;
+letter-spacing: 2px;
+color: rgb(137, 241, 255);
+}
+}
+
+.ion-card-list{
+background-color: rgba(92, 142, 235, 0.884);
+}
+
+.lst-no-background h2 {
+  margin: 1px 0;
+  font-size: 4.0rem;
+  font-weight: normal;
+}
+
+
+$purple     : #111D4A;
+$indigo     : #03071e;
+
+.ionLtem {
+
+  --background: $indigo !important; /* For browsers that do not support gradients */
+	--background: -webkit-linear-gradient(left top, $indigo, $purple) !important; /* For Safari 5.1 to 6.0 */
+	--background: -o-linear-gradient(bottom right, $indigo, $purple) !important; /* For Opera 11.1 to 12.0 */
+	--background: -moz-linear-gradient(bottom right, $indigo, $purple) !important; /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, $indigo, $purple) !important; /* Standard syntax */
+}
+
+.item-slider{
+  --background-color:#b0c4de;
+  --background-color-rgb:   176, 196, 222;
+}
+
+.g-r{
+  // border-left: 4px double #111D4A;
+  // border-radius: 24px 0px 0px 0px;
+  padding: none;
+  margin: none;
+
+}
+detail-icon {
+  font-size: 64px;
+  color: blue;
+}
